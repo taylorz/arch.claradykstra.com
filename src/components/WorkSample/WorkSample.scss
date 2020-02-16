@@ -1,0 +1,26 @@
+@import "../../styles/styles.scss";
+
+.work-sample {
+  .work-sample-header {
+    padding: 0 $buffer*12;
+    .title-info {
+      p {
+        font-size: $fontSize;
+        line-height: $lineHeight;
+        margin: 0;
+      }
+    }
+    .desc-info {
+      p {
+        font-size: $fontSize;
+        line-height: $lineHeight;
+        margin: $buffer*8;
+      }
+    }
+  }
+  .work-sample-image {
+    img {
+      width: 100%;
+    }
+  }
+}
