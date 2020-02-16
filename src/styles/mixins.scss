@@ -1,0 +1,6 @@
+@import '/variables.scss';
+
+@mixin transition {
+  transition: $transitionCubic;
+  // transition: all 1s linear;
+}
