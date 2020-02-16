@@ -2,7 +2,7 @@
 
 .work-sample {
   .work-sample-header {
-    padding: 0 $buffer*12;
+    padding: 0 6%;
     .title-info {
       p {
         font-size: $fontSize;
@@ -14,7 +14,7 @@
       p {
         font-size: $fontSize;
         line-height: $lineHeight;
-        margin: $buffer*8;
+        margin: $buffer*8 0;
       }
     }
   }

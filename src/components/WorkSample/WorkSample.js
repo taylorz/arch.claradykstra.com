@@ -9,14 +9,14 @@ class WorkSample extends Component {
     return (
       <div className={`work-sample ${className}`} onClick={onClick}>
         <Grid container className="work-sample-header">
-          <Grid item xs={4} className="title-info">
+          <Grid item xs={12} sm={4} className="title-info">
             <h3>{title}</h3>
             <p>{topics}</p>
             <p>{year}</p>
             <p>Critics: {critics}</p>
             <p>{context}</p>
           </Grid>
-          <Grid item xs={8} className="desc-info">
+          <Grid item xs={12} sm={8} className="desc-info">
             <p>{description}</p>
           </Grid>
         </Grid>
