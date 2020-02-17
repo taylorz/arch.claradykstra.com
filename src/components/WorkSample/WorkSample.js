@@ -15,7 +15,7 @@ class WorkSample extends Component {
           <Grid item xs={12} sm={4} className="desc-info">
             <p>{topics}</p>
             <p>{year}</p>
-            <p>Critics: {critics}</p>
+            <p>{critics}</p>
             <p>{context}</p>
           </Grid>
           <Grid item xs={12} sm={8} className="desc-info">
