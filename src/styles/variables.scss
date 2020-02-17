@@ -1,10 +1,15 @@
 $buffer:                            4px;
 
+$bgColorDark:                       #11111a;
+
 $easingCubic:                       cubic-bezier(0.77, 0, 0.175, 1);
 
-$fontFamily:                        "Georgia", serif;
+$primaryFontFamily:                 "Georgia", serif;
+$secondaryFontFamily:               "Work Sans", sans-serif;
 $fontSize:                          14px;
 $lineHeight:                        $fontSize*1.25;
+$fontSizeHero:                      $fontSize*3;
+$lineHeightHero:                    $fontSizeHero*1.25;
 
 $xs:                                 600px;
 $sm:                                 960px;

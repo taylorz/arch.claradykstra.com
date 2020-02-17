@@ -1,6 +1,16 @@
 @import "../../styles/styles.scss";
 
 .homepage-container {
-  padding: $buffer*4;
-  font-size: $buffer*20;
+  .work-section {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .section-title {
+      font-family: $secondaryFontFamily;
+      font-size: $fontSizeHero;
+      line-height: $lineHeightHero;
+      color: white;
+    }
+  }
 }

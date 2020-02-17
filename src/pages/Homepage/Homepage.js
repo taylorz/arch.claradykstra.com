@@ -13,9 +13,11 @@ class Homepage extends Component {
   render() {
     return (
       <SiteWrapper>
-        <PageContainer>
+        <PageContainer className="homepage-container">
             <>
-            <h1>GSAPP</h1>
+            <div className="work-section">
+              <div className="section-title">COLUMBIA UNIVERSITY GSAPP</div>
+            </div>
             {GSAPP.map((sample) =>
               <WorkSample
                 title={sample.title}
@@ -27,7 +29,9 @@ class Homepage extends Component {
                 image={sample.image}
               />
             )}
-            <h1>REPLACE</h1>
+            <div className="work-section">
+              <div className="section-title">REPLACE URBAN STUDIO</div>
+            </div>
             {REPLACE.map((sample) =>
               <WorkSample
                 title={sample.title}
@@ -39,7 +43,9 @@ class Homepage extends Component {
                 image={sample.image}
               />
             )}
-            <h1>OTHER</h1>
+            <div className="work-section">
+              <div className="section-title">PUBLISHED WORK</div>
+            </div>
             {OTHER.map((sample) =>
               <WorkSample
                 title={sample.title}

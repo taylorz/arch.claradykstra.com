@@ -9,8 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
-  font-family: $fontFamily;
-  background: #f1f1f1;
+  background: $bgColorDark;
   a {
     &:link {}
     &:visited {}

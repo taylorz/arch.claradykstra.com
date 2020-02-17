@@ -2,6 +2,7 @@
 
 .work-sample {
   margin-bottom: $buffer*8;
+  font-family: $primaryFontFamily;
   .work-sample-header {
     padding: $buffer*8 6% 0 6%;
     // -webkit-transform: translateY($buffer*8);
