@@ -1,11 +1,10 @@
 @import "../../styles/styles.scss";
 
 .work-sample {
-  margin-bottom: $buffer*8;
+  border-bottom: 1px solid #ccc;
   font-family: $primaryFontFamily;
   .work-sample-header {
     padding: $buffer*8 6% 0 6%;
-    // -webkit-transform: translateY($buffer*8);
     background: white;
     display: flex;
     align-items: flex-start;

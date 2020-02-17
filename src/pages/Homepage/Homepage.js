@@ -16,18 +16,23 @@ class Homepage extends Component {
         <PageContainer className="homepage-container">
             <>
             <div className="work-section">
-              <div className="section-title">COLUMBIA UNIVERSITY GSAPP</div>
+              <div className="section-title">Columbia University GSAPP</div>
             </div>
-            {GSAPP.map((sample) =>
-              <WorkSample
-                title={sample.title}
-                topics={sample.topics}
-                year={sample.year}
-                critics={sample.critics}
-                context={sample.context}
-                description={sample.description}
-                image={sample.image}
-              />
+            {GSAPP.map((project) =>
+              <>
+                <div className="project-title">{project.project}</div>
+                {project.samples.map((sample) =>
+                  <WorkSample
+                    title={sample.title}
+                    topics={sample.topics}
+                    year={sample.year}
+                    critics={sample.critics}
+                    context={sample.context}
+                    description={sample.description}
+                    image={sample.image}
+                  />
+                )}
+              </>
             )}
             <div className="work-section">
               <div className="section-title">REPLACE URBAN STUDIO</div>
@@ -65,3 +70,14 @@ class Homepage extends Component {
 }
 
 export default Homepage;
+
+
+// <WorkSample
+//   title={ project.samples.map((sample) => sample.title )}
+//   topics={ project.samples.map((sample) => sample.topics )}
+//   year={project.samples.year}
+//   critics={project.samples.critics}
+//   context={project.samples.context}
+//   description={project.samples.description}
+//   image={project.samples.image}
+// />

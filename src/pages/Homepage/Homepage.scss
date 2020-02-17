@@ -13,4 +13,11 @@
       color: white;
     }
   }
+  .project-title {
+    font-family: $secondaryFontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    margin: $buffer*16 0;
+    color: white;
+  }
 }
