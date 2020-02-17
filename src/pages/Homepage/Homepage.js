@@ -5,14 +5,18 @@ import PageContainer from '../../components/PageContainer/PageContainer';
 import WorkSample from '../../components/WorkSample/WorkSample';
 import './Homepage.scss';
 
-import SAMPLES from '../../constants/workSamples';
+import GSAPP from '../../constants/gsappWS';
+import REPLACE from '../../constants/replaceWS';
+import OTHER from '../../constants/otherWS';
 
 class Homepage extends Component {
   render() {
     return (
       <SiteWrapper>
         <PageContainer>
-            {SAMPLES.map((sample) =>
+            <>
+            <h1>GSAPP</h1>
+            {GSAPP.map((sample) =>
               <WorkSample
                 title={sample.title}
                 topics={sample.topics}
@@ -23,6 +27,31 @@ class Homepage extends Component {
                 image={sample.image}
               />
             )}
+            <h1>REPLACE</h1>
+            {REPLACE.map((sample) =>
+              <WorkSample
+                title={sample.title}
+                topics={sample.topics}
+                year={sample.year}
+                critics={sample.critics}
+                context={sample.context}
+                description={sample.description}
+                image={sample.image}
+              />
+            )}
+            <h1>OTHER</h1>
+            {OTHER.map((sample) =>
+              <WorkSample
+                title={sample.title}
+                topics={sample.topics}
+                year={sample.year}
+                critics={sample.critics}
+                context={sample.context}
+                description={sample.description}
+                image={sample.image}
+              />
+            )}
+            </>
         </PageContainer>
       </SiteWrapper>
     );

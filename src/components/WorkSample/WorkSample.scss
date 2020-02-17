@@ -1,20 +1,23 @@
 @import "../../styles/styles.scss";
 
 .work-sample {
+  margin-bottom: $buffer*8;
   .work-sample-header {
-    padding: 0 6%;
+    padding: $buffer*8 6% 0 6%;
+    // -webkit-transform: translateY($buffer*8);
+    background: white;
+    display: flex;
+    align-items: flex-start;
     .title-info {
-      p {
-        font-size: $fontSize;
-        line-height: $lineHeight;
-        margin: 0;
+      h3 {
+        margin-top: 0;
       }
     }
     .desc-info {
       p {
         font-size: $fontSize;
         line-height: $lineHeight;
-        margin: $buffer*8 0;
+        margin: 0;
       }
     }
   }
