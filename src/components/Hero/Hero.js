@@ -17,6 +17,8 @@ class Hero extends Component {
             <Grid item xs={12} md={10} className="statement-header">Hey! I'm Clara. An architectural designer with a background in urban development.</Grid>
             <Grid item xs={12} md={6} className="statement-subheader">
               I've had a few jobs, see what they thought of me:
+            </Grid>
+            <Grid item xs={12} className="statement-cta">
               <div className="button hero-button">View my references</div>
             </Grid>
           </Grid>
