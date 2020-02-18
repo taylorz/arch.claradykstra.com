@@ -9,7 +9,7 @@ import Replace8 from '../assets/workSamples/Replace8.jpg';
 
 const REPLACE = [
   {
-    project: "Project 1",
+    project: "1.",
     topics: "Research",
     year: "2018-2019",
     critics: "RePlace Urban Studio",
@@ -33,7 +33,7 @@ const REPLACE = [
     ]
   },
   {
-    project: "Project 2",
+    project: "2.",
     topics: "Residential + Commercial",
     year: "2019",
     critics: "RePlace Urban Studio",
@@ -47,7 +47,7 @@ const REPLACE = [
     ]
   },
   {
-    project: "Project 3",
+    project: "3.",
     topics: "Mixed Use",
     year: "2020",
     critics: "RePlace Urban Studio",
@@ -61,7 +61,7 @@ const REPLACE = [
     ]
   },
   {
-    project: "Project 4",
+    project: "4.",
     topics: "Community Center; Housing",
     year: "2017",
     critics: "RePlace Urban Studio",
@@ -75,7 +75,7 @@ const REPLACE = [
     ]
   },
   {
-    project: "Project 5",
+    project: "5.",
     topics: "Public School; Housing",
     year: "2018",
     critics: "RePlace Urban Studio",

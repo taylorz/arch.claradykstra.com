@@ -5,7 +5,7 @@ import Other4 from '../assets/workSamples/Other4.jpg';
 
 const OTHER = [
   {
-    project: "Project 1",
+    project: "1.",
     topics: "Procedural Justice - Graphic",
     year: "2017",
     critics: "with Stella Ioannidou",
@@ -19,7 +19,7 @@ const OTHER = [
     ]
   },
   {
-    project: "Project 2",
+    project: "2.",
     topics: "Procedural Justice - Graphic",
     year: "2017",
     critics: "with Kurt Streich",
@@ -33,7 +33,7 @@ const OTHER = [
     ]
   },
   {
-    project: "Project 3",
+    project: "3.",
     topics: "Animation",
     year: "2018",
     critics: "Joel Sanders Architects",

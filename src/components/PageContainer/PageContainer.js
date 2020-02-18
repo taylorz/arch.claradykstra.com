@@ -7,7 +7,7 @@ class PageContainer extends Component {
   render() {
     const { children, className, onClick } = this.props
     return (
-      <Grid item xs={12} className={`page-container ${className}`} onClick={onClick}>
+      <Grid item className={`page-container ${className}`} onClick={onClick}>
         {children}
       </Grid>
     );

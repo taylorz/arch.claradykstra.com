@@ -14,3 +14,18 @@
     }
   }
 }
+.bio-section {
+  background: lighten($bgColorDark, 10%);
+  .bio-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: $buffer*22 0;
+    .bio-text {
+      font-family: $secondaryFontFamily;
+      font-size: $fontSizeStatement;
+      line-height: $lineHeightStatement;
+      color: white;
+    }
+  }
+}

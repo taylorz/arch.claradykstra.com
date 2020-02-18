@@ -1,4 +1,6 @@
 @import "../../styles/styles.scss";
 
 .page-container {
+  max-width: $sm;
+  overflow-x: hidden;
 }//page-container

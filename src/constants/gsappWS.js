@@ -9,10 +9,10 @@ import Gsapp8 from '../assets/workSamples/Gsapp8.jpg';
 
 const GSAPP = [
   {
-    project: "Project 1",
+    project: "1.",
     topics: "Speculative Urban Design",
     year: "2016",
-    critics: "critic: Nahyun Hwang",
+    critics: "Prof. Nahyun Hwang",
     context: "Adv. I Studio, Columbia GSAPP",
     samples: [
       {
@@ -28,10 +28,10 @@ const GSAPP = [
     ]
   },
   {
-    project: "Project 2",
+    project: "2.",
     topics: "Design Field Research, Community Development / Housing",
     year: "2017",
-    critics: "Critics: Joshua Bolchover, John Lin",
+    critics: "Prof. Joshua Bolchover, Prof. John Lin",
     context: "Adv. III Studio, GSAPP Columbia",
     samples: [
       {
@@ -47,10 +47,10 @@ const GSAPP = [
     ]
   },
   {
-    project: "Project 3",
+    project: "3.",
     topics: "Research, Institutional",
     year: "2016",
-    critics: "Critic: Laura Kurgan",
+    critics: "Prof. Laura Kurgan",
     context: "Adv. II Studio, GSAPP Columbia",
     samples: [
       {
@@ -66,10 +66,10 @@ const GSAPP = [
     ]
   },
   {
-    project: "Project 4",
+    project: "4.",
     topics: "Housing",
     year: "2015",
-    critics: "with Michael Storm. Critic: Mario Gooden",
+    critics: "With Michael Storm. Prof. Mario Gooden",
     context: "Core III Studio, GSAPP Columbia",
     samples: [
       {
@@ -80,10 +80,10 @@ const GSAPP = [
     ]
   },
   {
-    project: "Project 5",
+    project: "5.",
     topics: "Community Space",
     year: "2014",
-    critics: "Critic: Joshua Uhl",
+    critics: "Prof. Joshua Uhl",
     context: "Adv. I Studio, GSAPP Columbia",
     samples: [
       {
