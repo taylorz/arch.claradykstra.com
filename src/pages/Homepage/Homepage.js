@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import SiteWrapper from '../../components/SiteWrapper/SiteWrapper';
 import PageContainer from '../../components/PageContainer/PageContainer';
+import ProjectInformation from '../../components/ProjectInformation/ProjectInformation';
 import WorkSample from '../../components/WorkSample/WorkSample';
 import './Homepage.scss';
 
@@ -20,7 +21,13 @@ class Homepage extends Component {
             </div>
             {GSAPP.map((project) =>
               <>
-                <div className="project-title">{project.project}</div>
+                <ProjectInformation
+                  project={project.project}
+                  topics={project.topics}
+                  year={project.year}
+                  critics={project.critics}
+                  context={project.context}
+                />
                 {project.samples.map((sample) =>
                   <WorkSample
                     title={sample.title}
@@ -37,30 +44,52 @@ class Homepage extends Component {
             <div className="work-section">
               <div className="section-title">REPLACE URBAN STUDIO</div>
             </div>
-            {REPLACE.map((sample) =>
-              <WorkSample
-                title={sample.title}
-                topics={sample.topics}
-                year={sample.year}
-                critics={sample.critics}
-                context={sample.context}
-                description={sample.description}
-                image={sample.image}
-              />
+            {REPLACE.map((project) =>
+              <>
+                <ProjectInformation
+                  project={project.project}
+                  topics={project.topics}
+                  year={project.year}
+                  critics={project.critics}
+                  context={project.context}
+                />
+                {project.samples.map((sample) =>
+                  <WorkSample
+                    title={sample.title}
+                    topics={sample.topics}
+                    year={sample.year}
+                    critics={sample.critics}
+                    context={sample.context}
+                    description={sample.description}
+                    image={sample.image}
+                  />
+                )}
+              </>
             )}
             <div className="work-section">
               <div className="section-title">PUBLISHED WORK</div>
             </div>
-            {OTHER.map((sample) =>
-              <WorkSample
-                title={sample.title}
-                topics={sample.topics}
-                year={sample.year}
-                critics={sample.critics}
-                context={sample.context}
-                description={sample.description}
-                image={sample.image}
-              />
+            {OTHER.map((project) =>
+              <>
+                <ProjectInformation
+                  project={project.project}
+                  topics={project.topics}
+                  year={project.year}
+                  critics={project.critics}
+                  context={project.context}
+                />
+                {project.samples.map((sample) =>
+                  <WorkSample
+                    title={sample.title}
+                    topics={sample.topics}
+                    year={sample.year}
+                    critics={sample.critics}
+                    context={sample.context}
+                    description={sample.description}
+                    image={sample.image}
+                  />
+                )}
+              </>
             )}
             </>
         </PageContainer>

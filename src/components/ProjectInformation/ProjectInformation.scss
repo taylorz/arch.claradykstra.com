@@ -1,0 +1,15 @@
+@import "../../styles/styles.scss";
+
+.project-information-wrapper {
+  margin: $buffer*16 0;
+  .project-information {
+    font-family: $secondaryFontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: white;
+    .project-title {
+      font-weight: 800;
+    }
+    .project-info-item {}
+  }
+}
