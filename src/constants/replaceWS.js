@@ -10,14 +10,14 @@ import Replace8 from '../assets/workSamples/Replace8.jpg';
 const REPLACE = [
   {
     project: "1.",
-    topics: "Research",
+    topics: "Research, Community Outreach, Community Development",
     year: "2018-2019",
     critics: "RePlace Urban Studio",
     context: "Urban League of Essex County",
     samples: [
       {
         title: "Fairmount Vision Plan",
-        description: "Fairmount Heights, Newark, NJ - The Fairmount Heights Vision Plan is the result of a year-long effort on behalf of the Urban League of Essex County (ULEC) to identify options for sustainable community development in Fairmount Heights, Newark, NJ. We worked with our client to identify strategies for development of vacant and abandoned parcels and we created a site design and development strategy for 3 acres they won in a settlement with a large energy company.",
+        description: "Fairmount Heights, Newark, NJ - The Fairmount Heights Vision Plan is the result of a year-long effort on behalf of the Urban League of Essex County (ULEC) to identify options for sustainable community development in Fairmount Heights, Newark, NJ. We worked with our client to identify strategies for development of vacant and abandoned parcels and we created a site design and development strategy for the 3 acres they won in a settlement with a large energy company.",
         image: Replace1
       },
       {
@@ -76,7 +76,7 @@ const REPLACE = [
   },
   {
     project: "5.",
-    topics: "Public School; Housing",
+    topics: "Public School, Housing, Office",
     year: "2018",
     critics: "RePlace Urban Studio",
     context: "Trinity Church",

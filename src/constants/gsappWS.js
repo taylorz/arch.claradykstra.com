@@ -18,30 +18,32 @@ const GSAPP = [
       {
         title: "Campus for the Research and Development of Land Production",
         description: "The periphery of large urban centers have long been the site for activities and uses that benefit from seclusion—namely industry, waste infrastructure, leisure, and recreation. Jamaica bay is a site of all such uses. This project explores how the unintended byproducts of each municipal process serve as outputs that demand a cyclical process of reconstruction of the ‘natural environment’ in which nature will continue to be redefined by the urban systems that are enabling their re-production.",
+        link:"https://claradykstra.com/jamaica-bay.html",
         image: Gsapp1
       },
       {
         title: "Center for Contaminated Sediments",
-        description: "Located at the only inlet into the bay, this center serves as the gate to the entire campus. This building: serves as a foot bridge connecting parks within the National Recreation Area; It processes dredged toxic sediment from the shipping channels, biosolids from the wastewater treatment plants dotting the bay, and recovered material from the surounding landfills; lastly it acts as a flood gate at the inlet, enabling controlled experiments within the center of the building and the bay.",
+        description: "Located at the only inlet into the bay, this center serves as the gate to the entire campus. This building: serves as a foot bridge connecting parks within the National Recreation Area; processes dredged toxic sediment from the shipping channels, biosolids from the wastewater treatment plants dotting the bay, and recovered material from the surounding landfills; and lastly, it acts as a flood gate at the inlet, enabling controlled experiments within the center of the building and the bay.",
         image: Gsapp2
       }
     ]
   },
   {
     project: "2.",
-    topics: "Design Field Research, Community Development / Housing",
+    topics: "Design Field Research, Community Development",
     year: "2017",
     critics: "Prof. Joshua Bolchover, Prof. John Lin",
     context: "Adv. III Studio, GSAPP Columbia",
     samples: [
       {
         title: "Expanding Gers, Encompassing Neighbors",
-        description: "Ulaanbaatar - In March of 2016, I travelled with design studio led by the design firm Rural Urban Framework, to the capital city in Mongolia for a week to interview residents of the informal ger settlements and to meet with non-profits working with these communities. With a local representative and a translator, we ask locals what they felt were the critical needs of their neighborhood.",
+        description: "Ulaanbaatar, Mongolia - In March of 2016, I travelled for a week with my studio, led by the design firm Rural Urban Framework, to the capital city in Mongolia for a week to interview residents of the informal ger settlements and to meet with non-profits working with these communities. With a local representative and a translator, we ask residents what they felt were the critical needs of their neighborhood.",
+        link:"https://claradykstra.com/ger.html",
         image: Gsapp3
       },
       {
         title: "Expanding Gers, Encompassing Neighbors",
-        description: "Ulaanbaatar - Since the early 2000s, many Mongolians have had to move to the outskirts of cities after losing their nomadic herds to extreme winters. Most families bring little else other than their ger— a small, transportable, and collapsable home­. This project proposes two simple additions to the ger-kit which enables residents to build larger spaces to enable businesses and community spaces at little extra cost.",
+        description: "Ulaanbaatar - Since the early 2000s, many Mongolians have had to move to the outskirts of cities after losing their nomadic herds to extreme winters. Most families bring little else other than their ger—a small, transportable, and collapsable home­. This project proposes two simple additions to the ger-kit which empowers residents to build larger spaces for businesses and community spaces at little extra cost.",
         image: Gsapp4
       }
     ]
@@ -55,12 +57,13 @@ const GSAPP = [
     samples: [
       {
       title: "#CloseRikers",
-      description: "NYC Criminal Justice System - In this studio at Columbia GSAPP, I explored the ways design could intervene in the criminal justice system to disrupt unjust processes and to support promising alternatives. The final design proposal is based on research and mapping that analyzed the ways in which the criminal justice system disporportionately affects the poor and persons of color. Read more at www.claradykstra.com.",
+      description: "NYC Criminal Justice System - In this studio, I explored the ways design could intervene in the criminal justice system to disrupt unjust processes and support promising alternatives. The final design proposal is based on research and mapping that analyzed the ways in which the criminal justice system disporportionately affects the poor and persons of color. Read more at www.claradykstra.com.",
+      link:"https://claradykstra.com/courts.html",
       image: Gsapp5
       },
       {
         title: "Reconfiguring the Court",
-        description: "This proposal for a new arraignment courtroom alters traditional courtroom power dynamics by reconfiguring the placement, orientation, and seat height of all traditional courtroom roles and also includes roles that currently are engaged after the arraignment process—thus providing space for outcomes beyond pleas deals or years of detainment.",
+        description: "This proposal for a new arraignment courtroom alters traditional courtroom power dynamics by reconfiguring the placement, orientation, and seat height of all traditional courtroom roles. It also includes roles that currently are engaged after the arraignment process—thus providing space for outcomes beyond pleas deals or years of detainment.",
         image: Gsapp6
       }
     ]

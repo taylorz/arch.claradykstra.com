@@ -13,7 +13,8 @@ const OTHER = [
     samples: [
       {
         title: "After Arrest",
-        description: "NYC -The prohibition of photography within police stations, secured spaces within courts, and jails makes it difficult to fully describe the processes of arrest, arraignment, and detainment. This drawing was created to communicate the procedures, people, and spaces a person encounters after their arrest in order to make visible these obfuscated processes of the criminal justice system.",
+        description: "NYC -The prohibition of photography within police stations, secured spaces within courts, and jails makes it difficult to fully describe the processes of arrest, arraignment, and detainment. This drawing was created to communicate the procedures, people, and spaces a person encounters after their arrest in order to make visible these obfuscated processes.",
+        link:"https://urbanomnibus.net/2017/11/after-arrest/",
         image: Other1
       },
     ]
@@ -28,6 +29,7 @@ const OTHER = [
       {
         title: "Trial Court, Design Logic",
         description: "These diagrams were created for publication in the Urban Omnibus’ series “Locations of Justice” to illustrate the underlying spatial logic of courthouses and courtrooms. Information about these spaces was pulled from courthouse design guides released by the General Services Administration and from interviews with courthouse architects.",
+        link: "https://urbanomnibus.net/2018/01/the-peoples-court/",
         image: Other2
       },
     ]
@@ -41,7 +43,8 @@ const OTHER = [
     samples: [
       {
         title: "STALLED!",
-        description: "Public Restrooms - Below are stills from an animation I made for the project STALLED! by Joel Sanders Architects. In this animation, traditional bathrooms­— ones that separate people into normative binary genders— are disassembled and a new design, that serves people of all genders and religions, is assembled in its place.",
+        description: "Public Restrooms - Below are stills from an animation I made for the project STALLED! by Joel Sanders Architects. In this animation, traditional bathrooms­—ones that separate people into normative binary genders—are disassembled and a new design, that serves people of all genders and religions, is assembled in its place.",
+        link:"https://www.stalled.online/",
         image: Other4
       },
     ]
