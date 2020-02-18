@@ -2,7 +2,7 @@ $buffer:                            4px;
 
 $bgColorDark:                       #3E3D35;
 
-$easingCubic:                       cubic-bezier(0.77, 0, 0.175, 1);
+$transition:                        .25s all cubic-bezier(0.77, 0, 0.175, 1);
 
 $primaryFontFamily:                 "Georgia", serif;
 $secondaryFontFamily:               "Work Sans", sans-serif;

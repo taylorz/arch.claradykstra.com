@@ -15,7 +15,13 @@ class Hero extends Component {
         <Grid item xs={12} md={6} className="hero-statement">
           <Grid container className="statement-wrapper">
             <Grid item xs={12} md={10} className="statement-header">Hey! I'm Clara. An architectural designer with a background in urban development.</Grid>
-            <Grid item xs={12} md={8} className="statement-subheader">I've had a few jobs, but I'm looking for a new one.</Grid>
+            <Grid item xs={12} md={6} className="statement-subheader">
+              I've had a few jobs, see what they thought of me:
+              <div className="button hero-button">View my references</div>
+            </Grid>
+          </Grid>
+          <Grid container className="statement-footer">
+            <Grid item xs={4}>Or take a look at my <a href="">resume</a></Grid>
           </Grid>
         </Grid>
       </Grid>

@@ -1,7 +1,7 @@
 @import "../../styles/styles.scss";
 
 .hero {
-  height: 90vh;
+  height: 100vh;
   background: lighten($bgColorDark, 5%);
   color: white;
   font-size: $fontSizeHero;
@@ -20,14 +20,64 @@
     }
   }
   .hero-statement {
+    position: relative;
+    overflow-x: hidden;
     padding: $buffer*16;
     display: flex;
-    align-items: center;
-    .statement-header {
-      margin-bottom: $lineHeightHero;
+    flex-direction: column;
+    justify-content: center;
+    .statement-wrapper {
+      .statement-header {
+        margin-bottom: $lineHeightHero;
+      }
+      .statement-subheader {
+        font-size: $fontSizeStatement;
+        color: lighten($bgColorDark, 40%);
+      }
+      .hero-button {
+        margin: $buffer*8 0;
+        font-size: $fontSize;
+        padding: $buffer*4 $buffer*8;
+        background-color: $bgColorDark;
+        color: white;
+        border-radius: 50px;
+        font-weight: bold;
+        display: inline-block;
+        @include transition;
+        &:hover {
+          background-color: white;
+          color: $bgColorDark;
+          cursor: pointer;
+          @include transition;
+        }
+      }
     }
-    .statement-subheader {
-      font-size: $fontSizeStatement;
+    .statement-footer {
+      position: absolute;
+      bottom: $buffer*16;
+      font-size: $fontSize;
+      a {
+        &:link {
+          color: white;
+          text-decoration: none;
+          @include transition;
+          border-bottom: 1px solid white;
+        }
+        &:visited {
+          color: white;
+          text-decoration: none;
+        }
+        &:hover {
+          color: $bgColorDark;
+          text-decoration: none;
+          border-bottom: 1px solid $bgColorDark;
+          @include transition;
+        }
+        &:active {
+          color: $bgColorDark;
+          text-decoration: none;
+        }
+      }
     }
   }
 }//hero
