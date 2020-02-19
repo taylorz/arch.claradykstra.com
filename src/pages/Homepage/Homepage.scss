@@ -5,6 +5,7 @@
     height: 60vh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     @include breakpoint(sm) {
       padding: $buffer*8;
@@ -20,6 +21,13 @@
         font-size: $fontSizeStatement;
         line-height: $lineHeightStatement;
       }
+    }
+    .section-subtitle {
+      font-family: $secondaryFontFamily;
+      font-size: $fontSize;
+      line-height: $lineHeight;
+      color: white;
+      margin-top: $buffer*8;
     }
   }
 }

@@ -1,0 +1,44 @@
+@import "../../styles/styles.scss";
+
+.footer {
+  padding: $buffer*16;
+  background: darken($bgColorDark, 25%);
+  color: $bgColorLight;
+  font-family: $secondaryFontFamily;
+  @include breakpoint(sm) {
+    padding: $buffer*16 $buffer*8;
+  }
+  a {
+    &:link {
+      color: $bgColorLight;
+      text-decoration: none;
+      @include transition;
+    }
+    &:visited {
+      color: $bgColorLight;
+      text-decoration: none;
+    }
+    &:hover {
+      color: $bgColorDark;
+      text-decoration: none;
+      @include transition;
+    }
+    &:active {
+      color: $bgColorLight;
+      text-decoration: none;
+    }
+  }
+  .footer-column {
+    @include breakpoint(sm) {
+      margin-bottom: $lineHeight;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    ul {
+      list-style-type: none;
+      margin: 0; padding: 0;
+      li {}
+    }
+  }
+}//footer

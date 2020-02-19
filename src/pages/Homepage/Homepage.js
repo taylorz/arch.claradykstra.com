@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import SiteWrapper from '../../components/SiteWrapper/SiteWrapper';
 import Hero from '../../components/Hero/Hero';
+import Footer from '../../components/Footer/Footer';
 import PageContainer from '../../components/PageContainer/PageContainer';
 import ProjectInformation from '../../components/ProjectInformation/ProjectInformation';
 import WorkSample from '../../components/WorkSample/WorkSample';
@@ -40,6 +41,7 @@ class Homepage extends Component {
             <div className="work-section" id="columbia">
               <Fade bottom distance="10px">
                 <div className="section-title">Columbia University GSAPP</div>
+                <div className="section-subtitle">2010</div>
               </Fade>
             </div>
             {GSAPP.map((project) =>
@@ -67,6 +69,7 @@ class Homepage extends Component {
             <div className="work-section" id="replace">
               <Fade bottom distance="10px">
                 <div className="section-title">rePlace Urban Studio</div>
+                <div className="section-subtitle">2010</div>
               </Fade>
             </div>
             {REPLACE.map((project) =>
@@ -94,6 +97,7 @@ class Homepage extends Component {
             <div className="work-section" id="published">
               <Fade bottom distance="10px">
                 <div className="section-title">Published Work</div>
+                <div className="section-subtitle">2010</div>
               </Fade>
             </div>
             {OTHER.map((project) =>
@@ -120,6 +124,7 @@ class Homepage extends Component {
             )}
             </>
         </PageContainer>
+        <Footer/>
       </SiteWrapper>
     );
   }
