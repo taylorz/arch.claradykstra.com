@@ -32,7 +32,7 @@ class Homepage extends Component {
         <div className="bio-section">
           <Grid container className="bio-wrapper">
             <Grid item xs={12} md={6} className="bio-text">
-              <p>I have a background in anthropology, film studies, and music performance. In 2017, I graduated Columbia GSAPP with a Master of Architecture, and for the past two and half years I have been applying my training as an architect in the field of urban design at rePlace Urban Studio. Through this work, I have proven myself to be a vital asset for projects ranging in scale from a small parcel to a city block. View samples of my work below!</p>
+              <p>I have a background in anthropology, film studies, and music performance. In 2017, I graduated Columbia GSAPP with a Master of Architecture. For the past two and half years I have been applying my training as an architect in the field of urban design at rePlace Urban Studio. Through this work, I have proven myself to be a vital asset for projects ranging in scale from a small parcel to a city block. View samples of my work below!</p>
             </Grid>
           </Grid>
         </div>
