@@ -4,3 +4,41 @@
   transition: $transition;
   // transition: all 1s linear;
 }
+
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: 599px) { @content; }
+  }
+  @else if $class == sm {
+    @media (max-width: 959px) { @content; }
+  }
+  @else if $class == md {
+    @media (max-width: 960px) { @content; }
+  }
+  @else if $class == lg {
+    @media (max-width: 1279px) { @content; }
+  }
+  @else if $class == xl {
+    @media (max-width: 1920px) { @content; }
+  }
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+  }
+}
+
+@mixin animation($duration, $easing, $delay, $animation) {
+  animation: $duration $easing $delay 1 $animation forwards;
+}

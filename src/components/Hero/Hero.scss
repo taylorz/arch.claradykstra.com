@@ -6,8 +6,15 @@
   color: white;
   font-size: $fontSizeHero;
   font-family: $secondaryFontFamily;
+  @include breakpoint(sm) {
+    height: 100vh;
+    font-size: $fontSize;
+  }
   .hero-image {
     background: $bgColorLight;
+    @include breakpoint(sm) {
+      height: 50vh;
+    }
     .hero-image-wrapper {
       width: 100%;
       height: 100%;
@@ -16,7 +23,7 @@
       background-image: url("../../assets/personal/clara.png");
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: center bottom;
+      background-position: center 50px;
     }
   }
   .hero-statement {
@@ -26,13 +33,25 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @include breakpoint(sm) {
+      padding: $buffer*8;
+      justify-content: flex-start;
+      height: 50vh;
+    }
     .statement-wrapper {
       .statement-header {
         margin-bottom: $lineHeightHero;
+        @include breakpoint(sm) {
+          font-size: $fontSizeStatement;
+          margin-bottom: $lineHeightStatement;
+        }
       }
       .statement-subheader {
         font-size: $fontSizeStatement;
         color: lighten($bgColorDark, 40%);
+        @include breakpoint(sm) {
+          font-size: $fontSize;
+        }
       }
       .hero-button {
         margin: $buffer*8 0;
@@ -56,6 +75,9 @@
       position: absolute;
       bottom: $buffer*16;
       font-size: $fontSize;
+      @include breakpoint(sm) {
+        bottom: $buffer*8;
+      }
       a {
         &:link {
           color: white;

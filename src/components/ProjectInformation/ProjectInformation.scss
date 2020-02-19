@@ -2,6 +2,9 @@
 
 .project-information-wrapper {
   margin: $buffer*16 0;
+  @include breakpoint(sm) {
+    margin: $buffer*16 $buffer*8;
+  }
   .project-information {
     font-family: $secondaryFontFamily;
     font-size: $fontSize;
@@ -10,7 +13,16 @@
     .project-title {
       font-weight: 800;
       padding-bottom: 0;
+      @include breakpoint(sm) {
+        padding: 0;
+        margin: 0 0 $buffer*2 $buffer*2 ;
+      }
     }
-    .project-info-item {}
+    .project-info-item {
+      @include breakpoint(sm) {
+        padding: 0;
+        margin-left: $buffer*2;
+      }
+    }
   }
 }

@@ -6,11 +6,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include breakpoint(sm) {
+      padding: $buffer*8;
+      text-align: center;
+      height: 50vh;
+    }
     .section-title {
       font-family: $secondaryFontFamily;
       font-size: $fontSizeHero;
       line-height: $lineHeightHero;
       color: white;
+      @include breakpoint(sm) {
+        font-size: $fontSizeStatement;
+        line-height: $lineHeightStatement;
+      }
     }
   }
 }
@@ -21,11 +30,18 @@
     display: flex;
     justify-content: center;
     padding: $buffer*22 0;
+    @include breakpoint(sm) {
+      padding: $buffer*8;
+    }
     .bio-text {
       font-family: $secondaryFontFamily;
       font-size: $fontSizeStatement;
       line-height: $lineHeightStatement;
       color: white;
+      @include breakpoint(sm) {
+        font-size: $fontSize;
+        line-height: $lineHeight;
+      }
     }
   }
 }
@@ -36,6 +52,9 @@
   font-family: $secondaryFontFamily;
   font-size: $fontSize;
   background: white;
+  @include breakpoint(sm) {
+    padding: 0;
+  }
   a {
     &:link {
       color: $bgColorDark;
@@ -58,13 +77,30 @@
     }
   }
   .nav-left {
-
+    @include breakpoint(sm) {
+      display: flex;
+      justify-content: center;
+      padding: $buffer*2 0 0 0;
+    }
   }
   .nav-right {
     display: flex;
     justify-content: flex-end;
+    @include breakpoint(sm) {
+      justify-content: flex-start;
+      padding: $buffer*2;
+    }
     a {
       margin-left: $buffer*8;
+      @include breakpoint(sm) {
+        margin: 0;
+        padding:: $buffer;
+        margin-right: $buffer*2;
+        text-align: center;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
     }
   }
 }
