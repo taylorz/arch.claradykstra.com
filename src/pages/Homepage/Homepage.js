@@ -21,6 +21,7 @@ class Homepage extends Component {
             <a href="/">Clara Dykstra Portfolio</a>
           </Grid>
           <Grid item xs={12} md={6} className="nav-right">
+            <a href="/">Home</a>
             <a href="#columbia">Columbia University GSAPP</a>
             <a href="#replace">rePlace Urban Studio</a>
             <a href="#published">Published Work</a>

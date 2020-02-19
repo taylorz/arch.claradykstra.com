@@ -3,6 +3,8 @@ import Grid from '@material-ui/core/Grid';
 import './Hero.scss'
 
 import ClaraImage from "../../assets/personal/clara.png";
+import ClaraReferences from "../../assets/downloads/Clara-Dykstra_References_Work.pdf";
+import ClaraResume from "../../assets/downloads/Dykstra-Clara_Resume.pdf";
 
 class Hero extends Component {
   render() {
@@ -19,11 +21,13 @@ class Hero extends Component {
               I've had a few jobs, see what they thought of me:
             </Grid>
             <Grid item xs={12} className="statement-cta">
-              <div className="button hero-button">View my references</div>
+              <a href={ClaraReferences} target="_blank">
+                <div className="button hero-button">View my references</div>
+              </a>
             </Grid>
           </Grid>
           <Grid container className="statement-footer">
-            <Grid item xs={4}>Or take a look at my <a href="">resume</a></Grid>
+            <Grid item xs={4}>Or take a look at my <a href={ClaraResume} target="_blank">resume</a></Grid>
           </Grid>
         </Grid>
       </Grid>
