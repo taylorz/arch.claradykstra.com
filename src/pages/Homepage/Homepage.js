@@ -61,6 +61,7 @@ class Homepage extends Component {
                     critics={sample.critics}
                     context={sample.context}
                     description={sample.description}
+                    link={sample.link}
                     image={sample.image}
                   />
                 )}
@@ -89,6 +90,7 @@ class Homepage extends Component {
                     critics={sample.critics}
                     context={sample.context}
                     description={sample.description}
+                    link={sample.link}
                     image={sample.image}
                   />
                 )}
@@ -117,6 +119,7 @@ class Homepage extends Component {
                     critics={sample.critics}
                     context={sample.context}
                     description={sample.description}
+                    link={sample.link}
                     image={sample.image}
                   />
                 )}

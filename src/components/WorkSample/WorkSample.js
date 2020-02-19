@@ -5,7 +5,7 @@ import './WorkSample.scss'
 
 class WorkSample extends Component {
   render() {
-    const { title, topics, year, critics, context, description, image, className, onClick } = this.props
+    const { title, topics, year, critics, context, description, link, image, className, onClick } = this.props
     return (
       <div className={`work-sample ${className}`} onClick={onClick}>
         <Grid container className="work-sample-header">
@@ -14,6 +14,7 @@ class WorkSample extends Component {
           </Grid>
           <Grid item xs={12} sm={8} className="desc-info">
             <p>{description}</p>
+            {link ? <p className="info-link"><a href={link} target="_blank">See more</a></p> : (null)}
           </Grid>
         </Grid>
         <Grid container className="work-sample-image">
