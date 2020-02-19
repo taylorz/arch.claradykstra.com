@@ -31,57 +31,40 @@
 }
 .nav-wrapper {
   position: fixed;
-  padding: $buffer*8;
+  padding: $buffer*4 $buffer*8;
   z-index: $zIndex3;
   font-family: $secondaryFontFamily;
   font-size: $fontSize;
-  .nav-left {
-    a {
-      &:link {
-        color: white;
-        text-decoration: none;
-        @include transition;
-      }
-      &:visited {
-        color: white;
-        text-decoration: none;
-      }
-      &:hover {
-        color: white;
-        cursor: pointer;
-        text-decoration: none;
-        @include transition;
-      }
-      &:active {
-        color: white;
-        text-decoration: none;
-      }
+  background: white;
+  a {
+    &:link {
+      color: $bgColorDark;
+      text-decoration: none;
+      @include transition;
     }
+    &:visited {
+      color: $bgColorDark;
+      text-decoration: none;
+    }
+    &:hover {
+      color: lighten($bgColorDark, 50%);
+      cursor: pointer;
+      text-decoration: none;
+      @include transition;
+    }
+    &:active {
+      color: $bgColorDark;
+      text-decoration: none;
+    }
+  }
+  .nav-left {
+
   }
   .nav-right {
     display: flex;
     justify-content: flex-end;
     a {
       margin-left: $buffer*8;
-      &:link {
-        color: white;
-        text-decoration: none;
-        @include transition;
-      }
-      &:visited {
-        color: white;
-        text-decoration: none;
-      }
-      &:hover {
-        color: $bgColorDark;
-        cursor: pointer;
-        text-decoration: none;
-        @include transition;
-      }
-      &:active {
-        color: white;
-        text-decoration: none;
-      }
     }
   }
 }
