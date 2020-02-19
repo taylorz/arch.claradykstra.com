@@ -3,4 +3,5 @@
 .page-container {
   max-width: $sm;
   overflow-x: hidden;
+  padding: $buffer*16 0;
 }//page-container

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import SiteWrapper from '../../components/SiteWrapper/SiteWrapper';
 import Hero from '../../components/Hero/Hero';
+import Footer from '../../components/Footer/Footer';
 import PageContainer from '../../components/PageContainer/PageContainer';
 import ProjectInformation from '../../components/ProjectInformation/ProjectInformation';
 import WorkSample from '../../components/WorkSample/WorkSample';
@@ -120,6 +121,7 @@ class Homepage extends Component {
             )}
             </>
         </PageContainer>
+        <Footer/>
       </SiteWrapper>
     );
   }
