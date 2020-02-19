@@ -16,6 +16,16 @@ class Homepage extends Component {
   render() {
     return (
       <SiteWrapper>
+        <Grid container className="nav-wrapper">
+          <Grid item xs={12} md={6} className="nav-left">
+            <a href="/">Clara Dykstra Portfolio</a>
+          </Grid>
+          <Grid item xs={12} md={6} className="nav-right">
+            <a href="#columbia">Columbia University GSAPP</a>
+            <a href="#replace">rePlace Urban Studio</a>
+            <a href="#published">Published Work</a>
+          </Grid>
+        </Grid>
         <Hero/>
         <div className="bio-section">
           <Grid container className="bio-wrapper">
@@ -26,7 +36,7 @@ class Homepage extends Component {
         </div>
         <PageContainer className="homepage-container">
             <>
-            <div className="work-section">
+            <div className="work-section" id="columbia">
               <Fade bottom distance="10px">
                 <div className="section-title">Columbia University GSAPP</div>
               </Fade>
@@ -53,7 +63,7 @@ class Homepage extends Component {
                 )}
               </>
             )}
-            <div className="work-section">
+            <div className="work-section" id="replace">
               <Fade bottom distance="10px">
                 <div className="section-title">rePlace Urban Studio</div>
               </Fade>
@@ -80,7 +90,7 @@ class Homepage extends Component {
                 )}
               </>
             )}
-            <div className="work-section">
+            <div className="work-section" id="published">
               <Fade bottom distance="10px">
                 <div className="section-title">Published Work</div>
               </Fade>
