@@ -41,6 +41,7 @@ class Homepage extends Component {
             <div className="work-section" id="columbia">
               <Fade bottom distance="10px">
                 <div className="section-title">Columbia University GSAPP</div>
+                <div className="section-subtitle">2010</div>
               </Fade>
             </div>
             {GSAPP.map((project) =>
@@ -68,6 +69,7 @@ class Homepage extends Component {
             <div className="work-section" id="replace">
               <Fade bottom distance="10px">
                 <div className="section-title">rePlace Urban Studio</div>
+                <div className="section-subtitle">2010</div>
               </Fade>
             </div>
             {REPLACE.map((project) =>
@@ -95,6 +97,7 @@ class Homepage extends Component {
             <div className="work-section" id="published">
               <Fade bottom distance="10px">
                 <div className="section-title">Published Work</div>
+                <div className="section-subtitle">2010</div>
               </Fade>
             </div>
             {OTHER.map((project) =>
