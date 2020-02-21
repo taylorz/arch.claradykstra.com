@@ -23,8 +23,8 @@ class Homepage extends Component {
           </Grid>
           <Grid item xs={12} md={6} className="nav-right">
             <a href="/">Home</a>
-            <a href="#columbia">Columbia University GSAPP</a>
             <a href="#replace">rePlace Urban Studio</a>
+            <a href="#columbia">Columbia University GSAPP</a>
             <a href="#published">Published Work</a>
           </Grid>
         </Grid>
@@ -38,13 +38,13 @@ class Homepage extends Component {
         </div>
         <PageContainer className="homepage-container">
             <>
-            <div className="work-section" id="columbia">
+            <div className="work-section" id="replace">
               <Fade bottom distance="10px">
-                <div className="section-title">Columbia University GSAPP</div>
-                <div className="section-subtitle">2014-2017; 5 Projects</div>
+                <div className="section-title">rePlace Urban Studio</div>
+                <div className="section-subtitle">2017-2020; 5 Projects</div>
               </Fade>
             </div>
-            {GSAPP.map((project) =>
+            {REPLACE.map((project) =>
               <>
                 <ProjectInformation
                   project={project.project}
@@ -67,13 +67,13 @@ class Homepage extends Component {
                 )}
               </>
             )}
-            <div className="work-section" id="replace">
+            <div className="work-section" id="columbia">
               <Fade bottom distance="10px">
-                <div className="section-title">rePlace Urban Studio</div>
-                <div className="section-subtitle">2017-2020; 5 Projects</div>
+                <div className="section-title">Columbia University GSAPP</div>
+                <div className="section-subtitle">2014-2017; 5 Projects</div>
               </Fade>
             </div>
-            {REPLACE.map((project) =>
+            {GSAPP.map((project) =>
               <>
                 <ProjectInformation
                   project={project.project}
