@@ -31,8 +31,10 @@ class Homepage extends Component {
         <Hero/>
         <div className="bio-section">
           <Grid container className="bio-wrapper">
-            <Grid item xs={12} md={6} className="bio-text">
-              <p>I have a background in anthropology, film studies, and music performance. In 2017, I graduated Columbia GSAPP with a Master of Architecture. For the past two and half years I have been applying my training as an architect in the field of urban design at rePlace Urban Studio. Through this work, I have proven myself to be a vital asset for projects ranging in scale from a small parcel to a city block. View samples of my work below!</p>
+            <Grid item xs={12} md={8} className="bio-text">
+              <p>In my five years of professional experience in Architecture and Urban Design, I have worked on projects located in New York City, Newark, NJ, Miami, Fl, and Los Angeles, CA and on a variety of building types: a 1,000 ft mixed-used office and residential tower, small multifamily residences, community centers, office buildings, schools, and single family homes.</p>
+              <p>Through my work, I have proven myself to be a vital asset for projects ranging in scale from a small parcel to a city block—analyzing building and zoning codes, designing buildings and small spaces, creating residential and health permit sets, and designing scripts to precisely model and generate fabrication drawings for building fabricators and engineers.</p>
+              <p>In my last year at rePlace Urban Studio, I led three out of the five projects my firm had with our primary client. In every project I have worked on in the last five years, I have met with clients regularly, presenting strategic solutions unique to the circumstances of each project and helping them make the best decisions for their project, their budget, and their timeline.</p>
             </Grid>
           </Grid>
         </div>

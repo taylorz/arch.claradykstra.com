@@ -4,7 +4,7 @@ import './Hero.scss'
 
 import ClaraImage from "../../assets/personal/clara.png";
 import ClaraReferences from "../../assets/downloads/Clara-Dykstra_References_Work.pdf";
-import ClaraResume from "../../assets/downloads/Dykstra-Clara_Resume.pdf";
+import ClaraResume from "../../assets/downloads/210615_Dykstra_Resume.pdf";
 
 class Hero extends Component {
   render() {

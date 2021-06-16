@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import './Footer.scss'
 
 import ClaraReferences from "../../assets/downloads/Clara-Dykstra_References_Work.pdf";
-import ClaraResume from "../../assets/downloads/Dykstra-Clara_Resume.pdf";
+import ClaraResume from "../../assets/downloads/210615_Dykstra_Resume.pdf";
 
 class Footer extends Component {
   render() {
