@@ -16,7 +16,7 @@
       font-family: $secondaryFontFamily;
       font-size: $fontSizeHero;
       line-height: $lineHeightHero;
-      color: white;
+      color: black;
       @include breakpoint(sm) {
         font-size: $fontSizeStatement;
         line-height: $lineHeightStatement;
@@ -26,7 +26,7 @@
       font-family: $secondaryFontFamily;
       font-size: $fontSize;
       line-height: $lineHeight;
-      color: white;
+      color: black;
       margin-top: $buffer*8;
     }
   }
@@ -45,7 +45,7 @@
       font-family: $secondaryFontFamily;
       font-size: $fontSizeStatement;
       line-height: $lineHeightStatement;
-      color: white;
+      color: black;
       @include breakpoint(sm) {
         font-size: $fontSize;
         line-height: $lineHeight;
@@ -59,28 +59,28 @@
   z-index: $zIndex3;
   font-family: $secondaryFontFamily;
   font-size: $fontSize;
-  background: white;
+  background: #fafafa;
   @include breakpoint(sm) {
     padding: 0;
   }
   a {
     &:link {
-      color: $bgColorDark;
+      color: #22222a;
       text-decoration: none;
       @include transition;
     }
     &:visited {
-      color: $bgColorDark;
+      color: #22222a;
       text-decoration: none;
     }
     &:hover {
-      color: lighten($bgColorDark, 50%);
+      color: lighten(#22222a, 50%);
       cursor: pointer;
       text-decoration: none;
       @include transition;
     }
     &:active {
-      color: $bgColorDark;
+      color: #22222a;
       text-decoration: none;
     }
   }
@@ -102,7 +102,7 @@
       margin-left: $buffer*8;
       @include breakpoint(sm) {
         margin: 0;
-        padding:: $buffer;
+        padding: $buffer;
         margin-right: $buffer*2;
         text-align: center;
         &:last-child {

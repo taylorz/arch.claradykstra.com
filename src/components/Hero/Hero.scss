@@ -3,7 +3,7 @@
 .hero {
   height: 100vh;
   background: lighten($bgColorDark, 5%);
-  color: white;
+  color: black;
   font-size: $fontSizeHero;
   font-family: $secondaryFontFamily;
   @include breakpoint(sm) {
@@ -57,14 +57,14 @@
         margin: $buffer*8 0;
         font-size: $fontSize;
         padding: $buffer*4 $buffer*8;
-        background-color: $bgColorDark;
-        color: white;
+        background-color: #22222a;
+        color: #fff;
         border-radius: 50px;
         font-weight: bold;
         display: inline-block;
         @include transition;
         &:hover {
-          background-color: white;
+          background-color: black;
           color: $bgColorDark;
           cursor: pointer;
           @include transition;
@@ -80,23 +80,23 @@
       }
       a {
         &:link {
-          color: white;
+          color: black;
           text-decoration: none;
           @include transition;
           border-bottom: 1px solid white;
         }
         &:visited {
-          color: white;
+          color: black;
           text-decoration: none;
         }
         &:hover {
-          color: $bgColorDark;
+          color: #22222a;
           text-decoration: none;
-          border-bottom: 1px solid $bgColorDark;
+          border-bottom: 1px solid #22222a;
           @include transition;
         }
         &:active {
-          color: $bgColorDark;
+          color: #22222a;
           text-decoration: none;
         }
       }

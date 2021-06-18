@@ -12,18 +12,20 @@ import './Homepage.scss';
 import GSAPP from '../../constants/gsappWS';
 import REPLACE from '../../constants/replaceWS';
 import OTHER from '../../constants/otherWS';
+import SPEEDBOAT from '../../constants/speedboatWS';
 
 class Homepage extends Component {
   render() {
     return (
       <SiteWrapper>
-        <Grid container className="nav-wrapper">
-          <Grid item xs={12} md={6} className="nav-left">
+        <Grid container className="nav-wrapper" justify="space-between">
+          <Grid item className="nav-left">
             <a href="/">Clara Dykstra Portfolio</a>
           </Grid>
-          <Grid item xs={12} md={6} className="nav-right">
+          <Grid item className="nav-right">
             <a href="/">Home</a>
             <a href="#replace">rePlace Urban Studio</a>
+            <a href="#speedboat">SPEEDBOAT Projects</a>
             <a href="#columbia">Columbia University GSAPP</a>
             <a href="#published">Published Work</a>
           </Grid>
@@ -40,6 +42,7 @@ class Homepage extends Component {
         </div>
         <PageContainer className="homepage-container">
             <>
+
             <div className="work-section" id="replace">
               <Fade bottom distance="10px">
                 <div className="section-title">rePlace Urban Studio</div>
@@ -47,6 +50,36 @@ class Homepage extends Component {
               </Fade>
             </div>
             {REPLACE.map((project) =>
+              <>
+                <ProjectInformation
+                  project={project.project}
+                  topics={project.topics}
+                  year={project.year}
+                  critics={project.critics}
+                  context={project.context}
+                />
+                {project.samples.map((sample) =>
+                  <WorkSample
+                    title={sample.title}
+                    topics={sample.topics}
+                    year={sample.year}
+                    critics={sample.critics}
+                    context={sample.context}
+                    description={sample.description}
+                    link={sample.link}
+                    image={sample.image}
+                  />
+                )}
+              </>
+            )}
+
+            <div className="work-section" id="speedboat">
+              <Fade bottom distance="10px">
+                <div className="section-title">SPEEDBOAT Projects</div>
+                <div className="section-subtitle">2020-2021; 4 Projects</div>
+              </Fade>
+            </div>
+            {SPEEDBOAT.map((project) =>
               <>
                 <ProjectInformation
                   project={project.project}
